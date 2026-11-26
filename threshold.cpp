@@ -1,11 +1,3 @@
-// threshold.cpp -- certified enclosures of m(3), m(23), m(24), m(25) (Section 5 of the paper)
-//
-//   m(y) = y(y-1) int_1^oo (-theta') (theta + 2t theta') [ (2 ttheta)^{y-2} + t (sqrt(t) theta - 1)^{y-2} ] dt
-//
-// Interval Riemann sums on [1, a] with step h = 2^-p, plus the tail bound T_a(y) on [a, oo).
-// Ball arithmetic: Arb (FLINT >= 3.0).
-//
-//   g++ -O2 threshold.cpp -o threshold -lflint && ./threshold
 
 #include <flint/arb.h>
 #include <cstdio>
