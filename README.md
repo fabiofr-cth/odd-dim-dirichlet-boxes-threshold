@@ -23,7 +23,12 @@ FLINT >= 3.0 and a C++ compiler. On Ubuntu, Debian or Linux Mint:
 
 Obtained with FLINT 3.0.1, g++ 13.3, Linux Mint 22.2 (running time < 1 s):
 
-    <paste here the output of ./threshold>
+    FLINT 3.0.1, 128 bits, K = 6, a = 20, h = 2^-10
+
+    m( 3) in 0.1349603193 +/- 0.00048956   < 1
+    m(23) in 0.9113976983 +/- 0.0027996   < 1
+    m(24) in 1.485274531 +/- 0.0045625   > 1
+    m(25) in 2.476626428 +/- 0.0076076   > 1
 
 Each line gives a ball [midpoint +/- radius] that is guaranteed to contain the
 exact value. With other versions of FLINT the last digits of the midpoints may
