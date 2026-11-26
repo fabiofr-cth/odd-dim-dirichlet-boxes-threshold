@@ -1,4 +1,4 @@
-# Certified computation of the threshold N_1
+# Certified computation of the odd dimension threshold  
 
 Code accompanying Section 5 of
 Fabio Francesconi & Julie Rowlett, *<title>*, arXiv:<number>.
